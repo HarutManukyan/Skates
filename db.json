@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "new": [
+    {
+      "id": 365236412345256,
+      "img": "https://static.wixstatic.com/media/1e47b2_63187e5c0308415aa3d5ed73a363ca36.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_63187e5c0308415aa3d5ed73a363ca36.webp",
+      "price": "13 000,00"
+    },
+    {
+      "id": 36523641234523,
+      "img": "https://static.wixstatic.com/media/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.webp",
+      "price": "13 000,00"
+    },
+    {
+      "id": 36523641256923,
+      "img": "https://static.wixstatic.com/media/1e47b2_738c48c13415430b8a1586c333ac6f17.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_738c48c13415430b8a1586c333ac6f17.webp",
+      "price": "13 000,00"
+     },
+    {
+      "id": 365236412347892,
+      "img": "https://static.wixstatic.com/media/1e47b2_51bde379b91e450e8ea7dfa8da03e9aa.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_51bde379b91e450e8ea7dfa8da03e9aa.webp",
+      "price": "13 000,00"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
