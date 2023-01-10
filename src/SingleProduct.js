@@ -1,13 +1,32 @@
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
+import instance from './api/axios'
 
 import { productSelector } from './redux/slices/productSlice'
+import { userSelector } from './redux/slices/userSlice'
 
 const SingleProduct = () => {
     const [infoIsShown, setInfoIsShown] = useState(true)
     const [returnIsShown, setReturnIsShown] = useState(true)
+    const [amount, setAmount] = useState(0)
 
     const {id, img, price} = useSelector(productSelector)
+    const navigate = useNavigate()
+
+    const user = useSelector(userSelector)
+
+    const addToCart = () => {
+        if(user.id === undefined){
+            navigate('/auth')
+        } else {
+            const itemInfo = {
+                id, img, price, amount
+            }
+            instance.patch(`users/${user.id}`, {cart: [...user.cart, itemInfo]})
+                .catch(err => console.log(err))
+        }
+    }
 
     return (
         <div className='single-product'>
@@ -24,28 +43,14 @@ const SingleProduct = () => {
                 <div className='single-product-price'>
                     {price} ₽
                 </div>
-                <div className='single-product-size'>
-                    Размер
-                </div>
-                <select className='single-product-size-selector' onChange={(e) => console.log(e.target.value)}>
-                    <option>
-                        S
-                    </option>
-                    <option>
-                        M
-                    </option>
-                    <option>
-                        L
-                    </option>
-                </select>
                 <div className='single-product-amount'>
                     Количество
                 </div>
                 
-                <input placeholder='1' type='number' className='single-product-amount-selector'/>
+                <input onChange={(e) => setAmount(e.target.value)} placeholder='1' type='number' className='single-product-amount-selector'/>
                 
-                <div className='single-product-add'>
-                    <button className='single-product-add-btn'>
+                <div onClick={addToCart} className='single-product-add'>
+                    <button  className='single-product-add-btn'>
                         Добавить в корзину
                     </button>
                 </div>

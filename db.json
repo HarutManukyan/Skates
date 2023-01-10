@@ -1,11 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
   "comments": [
     {
       "id": 1,
@@ -17,24 +10,186 @@
     {
       "id": 365236412345256,
       "img": "https://static.wixstatic.com/media/1e47b2_63187e5c0308415aa3d5ed73a363ca36.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_63187e5c0308415aa3d5ed73a363ca36.webp",
-      "price": "13 000,00"
+      "price": 13000
     },
     {
       "id": 36523641234523,
       "img": "https://static.wixstatic.com/media/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.webp",
-      "price": "13 000,00"
+      "price": 13000
     },
     {
       "id": 36523641256923,
       "img": "https://static.wixstatic.com/media/1e47b2_738c48c13415430b8a1586c333ac6f17.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_738c48c13415430b8a1586c333ac6f17.webp",
-      "price": "13 000,00"
-     },
+      "price": 13000
+    },
     {
       "id": 365236412347892,
       "img": "https://static.wixstatic.com/media/1e47b2_51bde379b91e450e8ea7dfa8da03e9aa.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_51bde379b91e450e8ea7dfa8da03e9aa.webp",
-      "price": "13 000,00"
+      "price": 13000
     }
   ],
+  "posts": [
+    {
+      "id": 1,
+      "img": "https://static.wixstatic.com/media/a27d24_299a9bd66ff94a23b9ecbe95bcfdee00~mv2_d_5732_4756_s_4_2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_auto/a27d24_299a9bd66ff94a23b9ecbe95bcfdee00~mv2_d_5732_4756_s_4_2.jpg",
+      "title": "Ведите блог на живом сайте",
+      "text": "Вы видите примеры постов. В них мы расскажем, c чего начать вести блог. Сперва опубликуйте сайт, а затем войдите на него как админ,...",
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "id": 2,
+      "img": "https://static.wixstatic.com/media/a27d24_f116a7916f5544a79f92d43b4247a457~mv2_d_2845_1900_s_2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_auto/a27d24_f116a7916f5544a79f92d43b4247a457~mv2_d_2845_1900_s_2.jpg",
+      "title": "Восемь привлекательных макетов",
+      "text": "Вы видите примеры постов. В них мы расскажем, c чего начать вести блог. Сперва опубликуйте сайт, а затем войдите на него как админ,...",
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "id": 3,
+      "img": "https://static.wixstatic.com/media/a27d24_5a98b777b0dd4c518ce70744ad44f630~mv2_d_4600_3903_s_4_2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_auto/a27d24_5a98b777b0dd4c518ce70744ad44f630~mv2_d_4600_3903_s_4_2.jpg",
+      "title": "Мобильным блогерам — мобильный блог",
+      "text": "Вы видите примеры постов. В них мы расскажем, c чего начать вести блог. Сперва опубликуйте сайт, а затем войдите на него как админ,...",
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "id": 5,
+      "img": "https://static.wixstatic.com/media/a27d24_e1ac8887d0e04dd5b98fb4c263af1180~mv2_d_4915_3277_s_4_2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_auto/a27d24_e1ac8887d0e04dd5b98fb4c263af1180~mv2_d_4915_3277_s_4_2.jpg",
+      "title": "Распределите посты по рубрикам",
+      "text": "Вы видите примеры постов. В них мы расскажем, c чего начать вести блог. Сперва опубликуйте сайт, а затем войдите на него как админ,...",
+      "likes": 0,
+      "comments": 0
+    }
+  ],
+  "longboards": [
+    {
+      "id": 365236412347888,
+      "img": "https://static.wixstatic.com/media/1e47b2_59d48d80b10840af9bdb79d5127d62d6.jpg/v1/fill/w_338,h_506,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_59d48d80b10840af9bdb79d5127d62d6.webp",
+      "price": 13000
+    },
+    {
+      "id": 365236412347889,
+      "img": "https://static.wixstatic.com/media/1e47b2_59d48d80b10840af9bdb79d5127d62d6.jpg/v1/fill/w_338,h_506,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_59d48d80b10840af9bdb79d5127d62d6.webp",
+      "price": 13000
+    },
+    {
+      "id": 365236412347890,
+      "img": "https://static.wixstatic.com/media/1e47b2_02c7a665df3243b1b23bfe0ca6f95881.jpg/v1/fill/w_338,h_506,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_02c7a665df3243b1b23bfe0ca6f95881.webp",
+      "price": 13000
+    },
+    {
+      "id": 365236412347891,
+      "img": "https://static.wixstatic.com/media/1e47b2_a463d93e572f46f48a5cea49db37fc4c.jpg/v1/fill/w_338,h_506,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_a463d93e572f46f48a5cea49db37fc4c.webp",
+      "price": 13000
+    }
+  ],
+  "skateboards": [
+    {
+      "id": 365236412347892,
+      "img": "https://static.wixstatic.com/media/1e47b2_63187e5c0308415aa3d5ed73a363ca36.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_63187e5c0308415aa3d5ed73a363ca36.webp",
+      "price": 13000
+    },
+    {
+      "id": 365236412347893,
+      "img": "https://static.wixstatic.com/media/1e47b2_738c48c13415430b8a1586c333ac6f17.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_738c48c13415430b8a1586c333ac6f17.webp",
+      "price": 13000
+    },
+    {
+      "id": 365236412347894,
+      "img": "https://static.wixstatic.com/media/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.jpg/v1/fill/w_281,h_422,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.webp",
+      "price": 13000
+    },
+    {
+      "id": 365236412347895,
+      "img": "https://static.wixstatic.com/media/1e47b2_95164a5d80514e839a9e966b689c4f89.jpg/v1/fill/w_281,h_422,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_95164a5d80514e839a9e966b689c4f89.webp",
+      "price": 13000
+    }
+  ],
+  "users": [
+    {
+      "id": 66557770880,
+      "name": "Bella",
+      "password": "1234",
+      "email": "bella@gmai.com",
+      "cart": [
+        {
+          "id": 365236412347892,
+          "img": "https://static.wixstatic.com/media/1e47b2_63187e5c0308415aa3d5ed73a363ca36.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_63187e5c0308415aa3d5ed73a363ca36.webp",
+          "price": "13 000,00",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Harut",
+      "password": "1234",
+      "email": "harut@mail.ru",
+      "cart": [
+        {
+          "id": 365236412347895,
+          "img": "https://static.wixstatic.com/media/1e47b2_95164a5d80514e839a9e966b689c4f89.jpg/v1/fill/w_281,h_422,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_95164a5d80514e839a9e966b689c4f89.webp",
+          "price": 13000,
+          "amount": 1
+        },
+        {
+          "id": 36523641234523,
+          "img": "https://static.wixstatic.com/media/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.webp",
+          "price": 13000,
+          "amount": 0
+        },
+        {
+          "id": 365236412345256,
+          "img": "https://static.wixstatic.com/media/1e47b2_63187e5c0308415aa3d5ed73a363ca36.jpg/v1/fill/w_500,h_750,al_c,q_85,usm_0.66_1.00_0.01/1e47b2_63187e5c0308415aa3d5ed73a363ca36.webp",
+          "price": 13000,
+          "amount": "1"
+        }
+      ],
+      "money": 100000,
+      "ordered": []
+    },
+    {
+      "id": 86530978979,
+      "name": "Edmond",
+      "password": "1234",
+      "email": "edmond@gmail.com",
+      "cart": [],
+      "money": 0,
+      "ordered": []
+    },
+    {
+      "id": 6710030803,
+      "name": "robert",
+      "password": "1234",
+      "email": "rober@gmail.com",
+      "cart": [
+        {
+          "id": 365236412347894,
+          "img": "https://static.wixstatic.com/media/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.jpg/v1/fill/w_281,h_422,al_c,q_80,usm_0.66_1.00_0.01/1e47b2_33f4ee628e1a4e678402e134d9c7fe30.webp",
+          "price": 13000,
+          "amount": "2"
+        }
+      ],
+      "money": 50000,
+      "ordered": []
+    },
+    {
+      "id": 83751078932,
+      "name": "Leo",
+      "password": "1234",
+      "email": "leo@mail.ru",
+      "cart": []
+    }
+  ],
+
+  "emails": [
+    {
+      "id": 1,
+      "email": "harut@gmail.com"
+    }
+  ],
+  
   "profile": {
     "name": "typicode"
   }

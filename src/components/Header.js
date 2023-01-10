@@ -1,7 +1,17 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link, Navigate, NavLink, useNavigate } from 'react-router-dom'
 import { MdOutlineShoppingBag } from 'react-icons/md'
+import { BiUserCircle } from 'react-icons/bi'
+
+import { setCart } from '../redux/slices/productSlice'
+import { useDispatch, useSelector } from 'react-redux'
+import { setUser, userSelector } from '../redux/slices/userSlice'
 
 const Header = () => {
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
+
+    
+
     const navbar = [
         {
             id: 1,
@@ -30,6 +40,13 @@ const Header = () => {
         }
     ]
 
+    const user = useSelector(userSelector)
+
+    const logOut = () => {
+        dispatch(setUser({}))
+        navigate('/auth')
+    }
+
     return (
         <header className="header">
             <div className='header-container'>
@@ -44,8 +61,16 @@ const Header = () => {
                             </NavLink>
                         ))
                     }
+                    <div className='nav-link'>
+                         {user.id ? `Баланс: ${user.money}` : 'Баланс: 0'}
+                    </div>
                     <div >
-                        <MdOutlineShoppingBag className='nav-store' />
+                        <MdOutlineShoppingBag onClick={() => dispatch(setCart(true))} className='nav-store' />
+                    </div>
+                    <div >
+                        {
+                            user.id ? <div onClick={logOut} className='nav-link'>Log out</div> : <BiUserCircle onClick={() => navigate('/auth')} className='nav-store' />
+                        }
                     </div>
                 </div>
             </div>
