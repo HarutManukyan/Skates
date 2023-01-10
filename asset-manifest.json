@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Skates/static/css/main.da786c77.css",
-    "main.js": "/Skates/static/js/main.39eaac93.js",
-    "static/js/787.4c3379f1.chunk.js": "/Skates/static/js/787.4c3379f1.chunk.js",
-    "index.html": "/Skates/index.html",
-    "main.da786c77.css.map": "/Skates/static/css/main.da786c77.css.map",
-    "main.39eaac93.js.map": "/Skates/static/js/main.39eaac93.js.map",
-    "787.4c3379f1.chunk.js.map": "/Skates/static/js/787.4c3379f1.chunk.js.map"
+    "main.css": "/skates/static/css/main.d0a51a50.css",
+    "main.js": "/skates/static/js/main.0b7896a6.js",
+    "static/js/787.4c3379f1.chunk.js": "/skates/static/js/787.4c3379f1.chunk.js",
+    "index.html": "/skates/index.html",
+    "main.d0a51a50.css.map": "/skates/static/css/main.d0a51a50.css.map",
+    "main.0b7896a6.js.map": "/skates/static/js/main.0b7896a6.js.map",
+    "787.4c3379f1.chunk.js.map": "/skates/static/js/787.4c3379f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da786c77.css",
-    "static/js/main.39eaac93.js"
+    "static/css/main.d0a51a50.css",
+    "static/js/main.0b7896a6.js"
   ]
 }
